@@ -1,0 +1,230 @@
+.navbar{
+	background-color: black;
+}
+.nav-item{
+	padding-right: 50px;
+}
+.nav-link{
+	font-size: 17px;
+}
+.nav-link:hover{
+	border-bottom: 2px solid white;
+
+}
+.banner-outer{
+	background-color: black;
+
+}
+.banner-inner{
+	background-image: url(images/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+  background-size: auto 100%;
+  height: 450px;
+}
+.bannerrow{
+  padding-top: 100px;
+}
+
+.strong, .stronger, .bannertext{
+  color: white;
+}
+
+.strong{
+  font-size: 30px;
+}
+.stronger{
+  font-size: 50px;
+}
+.FITNESS, .NU{
+  color: #00b3ff;
+  font-weight: bolder;
+}
+.FITNESS{
+  font-size: 70px;
+}
+.NU{
+  font-size: 95px;
+}
+.get{
+  color: white;
+  border: 1px solid white;
+}
+
+
+@media only screen and (min-width: 768px){
+  .strong, .stronger{
+    line-height: 1px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+.banner-inner{
+  background-image: url(images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100%;
+  height: 200px;
+}
+.bannerrow{
+  padding:16px;
+}
+
+.strong, .stronger, .bannertext{
+  color: white;
+}
+
+.strong{
+  font-size: 12px;
+}
+.stronger{
+  font-size: 15px;
+}
+.FITNESS, .NU{
+  color: #00b3ff;
+  font-weight: bold;
+}
+.FITNESS{
+  font-size: 23px;
+}
+.NU{
+  font-size: 28px;
+}
+}
+
+
+
+
+.training{
+	color: #00b3ff;
+	text-align: left;
+	font-weight: bold;
+}
+.training-text{
+	text-align: left;
+}
+.text{
+	margin-top: 50px;
+}
+
+.video{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.imagebackground{
+	position: relative;
+}
+.playbutton{
+	position: absolute;
+	right: 45%;
+	top: 43%;
+}
+
+.join{
+	background-color: black;
+}
+.form-control{
+	background-color: black;
+	color: grey;
+	border:0;
+  border-radius: 0px;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+.c1{
+  padding-top: 50px;
+}
+.t01{
+  color:#43AFCC;
+  font-size: 30px; 
+  margin-top:0px;
+}
+.c2{
+  padding-bottom: 50px;
+}
+.img51{
+  position: relative;
+}
+.img51:hover .overlay{
+  opacity: 0.7;
+}
+.img-rounded{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.roundedbottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 3;
+}
+.overlay{
+      background-color:#7ED6ED;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;    
+}
+.t11{
+    text-align: center;
+    color: white;
+    font-style: bold;
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+.t12{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:20%;
+}
+.ct11{
+    text-align: center;
+    color: white;
+    font-style: bold;
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+.ct12{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:12%;
+}
+
+
+
+.footer{
+  margin-top: 30px;
+  background-color: #353836;
+  border-top: 5px solid #00b3ff;
+  color: lightgrey;
+}
+.bar{
+  font-size: 60px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 767px){
+  .bar{
+  font-size: 30px;
+  font-weight: bolder;
+}
+}
+.footerimage{
+  display: block;
+  margin: 0 auto;
+}
+.read{
+  text-align: center;
+}
